@@ -1,0 +1,51 @@
+ #top{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(68, 41, 41);
+}
+
+#top1{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#navbar{
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    height: 14vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    margin: 15px;
+    list-style: none;
+    border-radius: 19px;
+}
+
+ul li a{
+    padding: 1px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#row1{
+    color: rgb(43, 21, 21);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 35px;
+}

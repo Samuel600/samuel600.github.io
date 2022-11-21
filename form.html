@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form style.css" />
+    <title>FORM</title>
+</head>
+<body>
+    <main class="container">
+        <h1 class="form-heading">MY FAMILY REGISTRATION PAGE </h1>
+ <form action="" method="post" class="form">
+     <div class="form_group">
+         <label for="first_name" class="form_group-label">first name</label>
+         <input type="text" name="first_name" id="first_name" class="first_name" placeholder="firstname" required />
+     </div>
+
+     <div class="form_group">
+        <label for="last_name" class="form_group-label">last name</label>
+        <input type="text" name="last_name" id="last_name" class="last_name" placeholder="last_name"required />
+     </div>
+
+     <div class="form_group">
+        <label for="email" class="form_group-label">Email address</label>
+        <input type="email" name="email" id="last_name" class="last_name" placeholder="email address"required />
+    </div>
+
+    <div class="form_group">
+        <label for="phone" class="form_group-label"></label>
+        <input type="tele" name="phone" id="phone" class="phone" placeholder="phone number"required />
+    </div>
+
+    <div class="form_group">
+        <label for="gender"class="form_group-label">gender</label>
+        <select name="gender" required>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="not to say">prefer not to say</option>
+        </select>
+        <label for="family"class="form_group-label">family</label>
+        <select name="family" required>
+            <option value="father">father</option>
+            <option value="mother">mother</option>
+            <option value="children">children</option>
+            <option value="cousins">cousins</option>
+            <option value="extended fam">extended fam</option>
+        </select>
+    </div>
+
+    <div class="form_group">
+    <button class="btn-submit">SUBMIT</button>
+
+
+ </form>
+</body>
+</html>
